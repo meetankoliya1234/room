@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-entity position = "0 10 -10">
+                <a-camera></a-camera>
+            </a-entity>
+
+            <!--Sky-->>
+            <a-sky color = "#000B18"></a-sky>
+
+            <!--Floor-->
+            <a-entity>
+                <a-plane position = "0 0 0" color = "#99EE99" width = "60" height = "80" length = "30" rotation = "-90 0 0"></a-plane>
+            </a-entity>
+
+            <!--Wall1-->
+            <a-entity>
+                <a-plane position = "-30 15 0" color = "red" width = "80" height = "30" length = "30" rotation = "0 90 0"></a-plane>
+            </a-entity>
+
+            <!--Wall2-->
+            <a-entity>
+                <a-plane position = "-10 15 -40" color = "red" width = "40" height = "30" length = "30" rotation = "0 0 0"></a-plane>
+            </a-entity>
+
+            <!--Wall3-->
+            <a-entity>
+                <a-plane position = "30 15 0" color = "red" width = "80" height = "30" length = "30" rotation = "0 -90 0"></a-plane>
+            </a-entity>
+
+            <!--Roof-->
+            <a-entity>
+                <a-plane position = "0 30 0" color = "#99EE99" width = "60" height = "80" length = "30" rotation = "90 0 0"></a-plane>
+            </a-entity>
+
+            <!--Door-->
+            <a-entity>
+                <a-plane position = "17.5 12 -40" color = "#23395D" width = "15" height = "30" length = "30" rotation = "0 0 0"></a-plane>
+            </a-entity>
+
+            <!--Door_handle-->
+            <a-entity>
+                <a-sphere position = "12 14 -40" color = "#C0C0C0" radius = "0.5"></a-sphere>
+            </a-entity>
+
+            <!--Wall part1-->
+            <a-entity>
+                <a-plane position = "17.5 28.5 -40" color = "red" height = "3" width = "15"></a-plane>
+            </a-entity>
+
+            <!--Wall part2-->
+            <a-entity>
+                <a-plane position = "27.5 20 -40" color = "red" height = "50" width = "5"></a-plane>
+            </a-entity>
+
+            <!--TV Box-->
+            <a-entity>
+                <a-box position = "-10 5 -35" color = "#281b0d" height = "10" width = "30" length = "20" depth = "10"></a-box>
+            </a-entity>
+
+            <!--TV-->
+            <a-entity>
+                <a-box position = "-10 16 -35" color = "black" width = "20" height = "10"></a-box>
+            </a-entity>
+            
+            <!--TV Stand-->
+            <a-entity>
+                <a-box position = "-10 10 -35" color = "grey" height = "2" width = "4"></a-cylinder>
+            </a-entity>
+
+            <!--TV box boxes-->
+            <a-entity>
+                <a-box position = "-20 5 -30" color = "#462d25" height = "8" width = "8"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "0 5 -30" color = "#462d25" height = "8" width = "8"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-7.1 5 -30" color = "#462d25" height = "8" width = "5"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-12.9 5 -30" color = "#462d25" height = "8" width = "5"></a-box>
+            </a-entity>
+
+            <!--TV box boxes handles-->
+            <a-entity>
+                <a-sphere position = "-17 5.5 -29.5" color = "#C0C0C0" radius = "0.5"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-3 5.5 -29.5" color = "#C0C0C0" radius = "0.5"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-8.5 5.5 -29.5" color = "#C0C0C0" radius = "0.5"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-11.5 5.5 -29.5" color = "#C0C0C0" radius = "0.5"></a-sphere>
+            </a-entity>
+
+            <!--Robotic kit-->
+            <a-entity>
+                <a-box position = "-28 4 -34" color = "#ff6600" width = "10" height = "8" depth = "2" rotation = "0 90 0"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-torus position = "-28 8 -34" color = "grey" rotation = "0 90 0" radius = "2" radius-tubular = "0.08" segments-tubular = "200"></a-torus>
+            </a-entity>
+
+            <!--balcony line-->
+            <a-entity>
+                <a-cylinder position = "0 0 20" color = "black" rotation = "0 0 90" height = "60" radius = "1"></a-cylinder>
+            </a-entity>
+
+            <!--Balcony stand-->
+            <a-entity>
+                <a-cylinder position = "20 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "0 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "-20 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "30 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "-30 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "10 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "-10 5 36" color = "#C0C0C0" height = "10"></a-cylinder>
+            </a-entity>
+
+            <!--Balcony pipe-->
+            <a-entity>
+                <a-box position = "0 10 36" color = "#C0C0C0" width = "60" height = "2" depth = "2"></a-box>
+            </a-entity>
+
+            <!--Moon-->
+            <a-entity>
+                <a-sphere 
+                    position = "0 30 60" 
+                    radius = "4"
+                    src = "https://upload.wikimedia.org/wikipedia/commons/e/ea/Clementine_albedo_simp750.jpg">
+                </a-sphere>
+            </a-entity>
+
+            <!--Star-->
+            <a-entity>
+                <a-sphere position = "20 30 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-20 30 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "10 20 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "25 25 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "25 35 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "30 22 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-25 25 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-30 28 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <a-entity>
+                <a-sphere position = "-26 35 60" color = "white" radius = "0.1"></a-sphere>
+            </a-entity>
+
+            <!--fan-->
+            <a-entity>
+                <a-cylinder position = "0 30 0" color = "white" radius = "0.5" height = "2"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "0 28 0" color = "brown" radius = "2">
+                    <a-entity>
+                        <a-box position = "-5 0 0" color = "brown" width = "10" height = "1" depth = "3"></a-box>
+                    </a-entity>
+
+                    <a-entity>
+                        <a-box position = "2 0 -5" color = "brown" width = "10" height = "1" depth = "3" rotation = "0 70 0"></a-box>
+                    </a-entity>
+
+                    <a-entity>
+                        <a-box position = "2 0 5" color = "brown" width = "10" height = "1" depth = "3" rotation = "0 -70 0"></a-box>
+                    </a-entity>
+                </a-cylinder>
+            </a-entity>
+
+            <!--Tipoi-->
+            <a-entity>
+                <a-box position = "-25 0 15" height = "0.5" width = "5" depth = "5"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-cylinder position = "-25 3 15" height = "5" color = "yellow" radius = "0.5"></a-cylinder>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-25 5.5 15" height = "0.5" width = "6" depth = "6" color = "#5C4033"></a-box>
+            </a-entity>
+
+            <!--Sofa legs-->
+            <a-entity>
+                <a-box position = "10 0 15" color = "black" height = "2" width = "2" depth = "2"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-15 0 15" color = "black" height = "2" width = "2" depth = "2"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "10 0 5" color = "black" height = "2" width = "2" depth = "2"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-15 0 5" color = "black" height = "2" width = "2" depth = "2"></a-box>
+            </a-entity>
+
+            <!--Sofa-->
+            <a-entity>
+                <a-box position = "-2.5 4 10" color = "#DFCAA0" width = "35" height = "5" depth = "15"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-2.5 10 15" color = "#DFCAA0" width = "35" height = "8" depth = "5"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-17.5 7 10" color = "#DFCAA0" width = "5" height = "5" depth = "15"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "12.5 7 10" color = "#DFCAA0" width = "5" height = "5" depth = "15"></a-box>
+            </a-entity>
+
+            <!--Pillow-->
+            <a-entity>
+                <a-box position = "5 9 12" color = "brown" width = "5" height = "5" depth = "2"></a-box>
+            </a-entity>
+
+            <a-entity>
+                <a-box position = "-10 9 12" color = "brown" width = "5" height = "5" depth = "2"></a-box>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
